@@ -17,7 +17,8 @@
 
  `ipp://192.168.0.171`
  
-## Fix QT's awful (large) scaling
+## Fix QT's awful (large) scaling 
+- https://github.com/linuxmint/Cinnamon/issues/4902#issuecomment-325495554
 - put in your  .zshrc (.bashrc)
 - Tweak `QT_SCALE_FACTOR` as needed.
 
