@@ -35,3 +35,8 @@
  `environment.variables.QT_AUTO_SCREEN_SCALE_FACTOR = "0";`
  
  `environment.variables.QT_SCREEN_SCALE_FACTORS = "1";`
+ 
+ 
+ ## Find where a package is stored in /nix/store
+ 
+ `readlink $(where <YOUR PKG HERE>)`
