@@ -27,3 +27,11 @@
 `export QT_AUTO_SCREEN_SCALE_FACTOR=0`
 
 `export QT_SCREEN_SCALE_FACTORS=1`
+
+- Or put in your nix config:
+
+`environment.variables.QT_SCALE_FACTOR = "1";`
+ 
+ `environment.variables.QT_AUTO_SCREEN_SCALE_FACTOR = "0";`
+ 
+ `environment.variables.QT_SCREEN_SCALE_FACTORS = "1";`
