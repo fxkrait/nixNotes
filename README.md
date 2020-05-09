@@ -40,3 +40,22 @@
  ## Find where a package is stored in /nix/store
  
  `readlink $(where <YOUR PKG HERE>)`
+ 
+ ## Let PCManFM (or any file manager) open a text editor for 'unknown file types', instead of doing nothing:
+ 
+ - In this case, I will open unknown files in the text editor leafpad
+ 
+ - You can run `mimeopen -d user <FILE>` to figure out what the exact file type is...
+ 
+`Please choose a default application for files of type application/octet-stream`
+
+ 
+ - Add to your ~/.config/mimeapps.list
+ 
+ ` [Default Applications]`
+ 
+`application/octet-stream=leafpad.desktop`
+
+`[Added Associations]`
+
+`application/octet-stream=leafpad.desktop;`
